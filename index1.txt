@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
@@ -8,14 +8,13 @@
   </head>
   <body>
   <div>
-    
     <div class="container">
 		<div class ="left">
 		  <p><a><u><b>HOME</b></u></a></p>
 		  <p><a><u><b>ABOUT US</b></u></a></p>
 		  <p><a><u><b>PRODUCTS & SERVICES</b></u></a></p>
 		  <p><a><u><b>CAREERS,</b></u></a></p>
-		  <p><a><u><b>CONTACT US</b></u></a></p>
+		  <p><a><u><b>CONTACTUS</b></u></a></p>
 	  </div>
     </div>
 	  
