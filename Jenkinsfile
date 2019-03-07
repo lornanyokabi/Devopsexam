@@ -16,8 +16,8 @@ sh "docker build -t lornanyokabi:latest ."
 
 stage('Docker login to hub and push the image'){
 sh "docker login -u 'lornanyokabi' -p 'Nairobi12345' "
-sh "docker tag lornanyokabi:latest lornanyokabi/wangeshilorna:latest"
-sh "docker push lornanyokabi/wangeshilorna"
+sh "docker tag lornanyokabi:latest lornanyokabi/devopsexam:latest"
+sh "docker push lornanyokabi/devopsexam"
 }
 
 stage('Apply changes to the environment') {
