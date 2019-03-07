@@ -20,7 +20,7 @@ sh "docker tag lornanyokabi:latest lornanyokabi/devopsexam:latest"
 sh "docker push lornanyokabi/devopsexam"
 }
 
-stage('Apply changes to the environment and run ') {
+stage('Apply changes to the environment and run image ') {
 sh "ls -l"
 sh "docker run -d -p 5902:80/tcp lornanyokabi:latest"
 }
