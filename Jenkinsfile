@@ -22,6 +22,7 @@ sh "docker push lornanyokabi/devopsexam"
 
 stage('Apply changes to the environment') {
 sh "ls -l"
+sh "docker run  lornanyokabi:latest"
 }
 
 
