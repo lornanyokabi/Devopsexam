@@ -22,7 +22,7 @@ sh "docker push lornanyokabi/devopsexam"
 
 stage('Apply changes to the environment') {
 sh "ls -l"
-sh "docker run -d -p 80:5902/tcp lornanyokabi:latest"
+sh "docker run -d -p 443:5902/tcp wangechi:latest"
 }
 
 
